@@ -14,10 +14,10 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
   // Coletando informações de rede
-  const network = navigator.connection
-    ? navigator.connection.effectiveType
-    : "Desconhecido";
-  document.getElementById("network").textContent = network;
+  // const network = navigator.connection
+  //   ? navigator.connection.effectiveType
+  //   : "Desconhecido";
+  // document.getElementById("network").textContent = network;
 
   // Coletando informações de hardware (só informações básicas, como o dispositivo de tela)
   const tela = `${screen.width}x${screen.height}`;
