@@ -47,6 +47,7 @@ h2 {
   color: #0077cc;
   font-size: 2rem;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 ul {
@@ -63,14 +64,23 @@ ul li {
   border-radius: 5px;
 }
 
-.example {
+/* a {
+  text-decoration: none; 
+  color: inherit; 
+  background: none; 
+  border: none; 
+} */
+
+.example,
+.info {
   text-align: center;
   margin-top: 3rem;
   padding-top: 2rem;
   border-top: 2px solid #eee;
 }
 
-.example p {
+.example,
+.info p {
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
