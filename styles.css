@@ -80,8 +80,10 @@ ul li {
 }
 
 .example p {
-  margin-bottom: 2rem;
-  line-height: 1.8;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: 2rem;
+  padding-bottom: 1rem;
 }
 
 .btn-example {
