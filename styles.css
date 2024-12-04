@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+header {
+  background: linear-gradient(135deg, #0077cc, #005fa3);
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+  border-bottom: 4px solid #004080;
+  border-radius: 0 0 10px 10px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+main {
+  background: white;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+  color: #0077cc;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+ul li {
+  background: #eef7ff;
+  margin: 0.5rem 0;
+  padding: 0.8rem;
+  border-left: 5px solid #0077cc;
+  border-radius: 5px;
+}
+
+.example {
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid #eee;
+}
+
+.example p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.btn-example {
+  display: inline-block;
+  background: #0077cc;
+  color: white;
+  text-decoration: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-example:hover {
+  background: #005fa3;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+  background: #0077cc;
+  color: white;
+  font-size: 0.9rem;
+  border-radius: 10px 10px 0 0;
+}
