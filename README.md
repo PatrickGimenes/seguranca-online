@@ -17,4 +17,4 @@ Além disso, o site contém um link para o YouTube, que serve como um exemplo de
 
 ## Como Usar
 
-1. Acesse o site [Segurança Online](https://patrickgimenes.github.io/rickroll/)
+1. Acesse o site [Segurança Online](https://patrickgimenes.github.io/seguranca-online/)
